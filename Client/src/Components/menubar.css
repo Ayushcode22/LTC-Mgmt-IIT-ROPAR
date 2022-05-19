@@ -1,0 +1,171 @@
+.container-menubar{
+    display: flex;
+    flex-direction: row;
+    background-color: #000000;
+    height:8vh;
+    width: 100%;
+    z-index: 1000;
+    position:sticky;
+    top:0;
+}
+
+
+.home-btn{
+    background-color: black;
+    color: white;
+    margin-top: 1vh;
+    margin-right: 1vw;
+    padding: 9px;
+    font-size: 15px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.home-btn:hover{
+    background-color: grey;
+}
+
+.forms-btn{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.appl-btn{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.signout{
+    margin-top: 1vh;
+}
+
+.signout-btn{
+    background-color: black;
+    color: white;
+    margin-right: 1vw;
+    padding: 9px;
+    font-size: 15px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.signout-btn:hover{
+    background-color: grey;
+}
+
+
+.dropdown-home {
+    display: inline-block;
+    position: relative;
+    margin-left: 2vw;
+    margin-top: 2vh;
+    }
+    
+.dropdown-forms {
+    display: inline-block;
+    position: relative;
+    margin-left: 3vw;
+    margin-top: 1vh;
+    }
+    .dropdown-content-forms {
+        position: absolute;
+        width: max-content;
+        overflow: auto;
+        border-radius: 3px;
+        box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);    
+        visibility: hidden;
+        transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.09s,;
+    }
+    .dropdown-forms:hover .dropdown-content-forms {
+        visibility: visible;
+        display: block;
+        background-color: black;
+        opacity: 1;
+        z-index: 1;
+        transform: translateY(3%);
+        transition-delay: 0s 0.3s;
+    }
+
+    .dropdown-forms:hover .forms-btn{
+        background-color: grey;
+    }
+    .content-forms{
+        display: block;
+        color: white;
+        background-color: black;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        margin-bottom: 0.5vh;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        text-decoration: none;
+    }
+
+    .content-forms:hover {
+        background-color: rgb(71, 64, 64);
+        cursor: pointer;
+    }
+
+.dropdown-appl {
+    display: inline-block;
+    position: relative;
+    margin-left: 3vw;
+    margin-top: 1vh;
+    }
+    .dropdown-content-appl {
+        position: absolute;
+        width: max-content;
+        overflow: auto;
+        border-radius: 3px;
+        box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);    
+        visibility: hidden;
+        transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.09s,;
+    }
+    .dropdown-appl:hover .dropdown-content-appl {
+        visibility: visible;
+        display: block;
+        background-color: black;
+        opacity: 1;
+        z-index: 1;
+        transform: translateY(3%);
+        transition-delay: 0s 0.3s;
+    }
+
+    .dropdown-appl:hover .appl-btn{
+        background-color: grey;
+    }
+    .content-appl{
+        display: block;
+        color: white;
+        background-color: black;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        margin-bottom: 0.5vh;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        text-decoration: none;
+    }
+
+    .content-appl:hover {
+        background-color: rgb(71, 64, 64);
+        cursor: pointer;
+    }
+
+    .rf{
+        flex:1;
+    }
+
+    

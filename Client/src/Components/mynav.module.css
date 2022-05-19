@@ -1,0 +1,49 @@
+.a1{
+    background-color: #2e2e2e;
+    display: flex;
+}
+.a2{
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+    width: 100%;
+}
+.a3{
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    font-size: 17px;
+    text-align: center;
+    display: flex;
+}
+.a3:hover {
+    background-color: rgba(1, 1, 1, 0.3);
+}
+
+.signout_btn{
+    align-items: center;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 0 0.8em 0 0.8em;
+    color: white;
+    background: linear-gradient(0deg, rgb(15, 140, 229) 0%, rgb(38, 164, 199) 100%);
+    border: none;
+    letter-spacing: 0.05em;
+    border-radius: 5em;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    height: 35px;
+}
+.button-88:hover {
+  box-shadow: 0 0.5em 1.5em -0.5em #0b92e098;
+}
+
+.button-88:active {
+  box-shadow: 0 0.3em 1em -0.5em #0b92e098;
+}
+.fx{
+    flex:1;
+}

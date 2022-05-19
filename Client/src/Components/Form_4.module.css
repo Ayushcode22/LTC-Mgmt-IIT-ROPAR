@@ -1,0 +1,25 @@
+.acc table, .acc th, .acc td {
+  border:0.5px solid black;
+  border-collapse: collapse;
+}
+
+.acc_main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 3%;
+}
+.acc_sub{
+  color: aliceblue;
+  background-color: rgb(29, 108, 212);
+  border-radius: 4px;
+  height: 25px;
+  border-width: 0;
+  cursor: pointer;
+}
+.acc_sub:hover {
+  box-shadow: 0 10px 12px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+

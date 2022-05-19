@@ -1,0 +1,71 @@
+.hod table, .hod th, .hod td {
+    border:0.5px solid black;
+    border-collapse: collapse;
+}
+.hod th,.hod td{
+    padding: 0.5% 0.5% 0.5% 0.5%;
+}
+.serial th, .tag th, .field th, .serial td, .tag td, .field td{
+    border:0.5px solid black;
+    border-collapse: collapse;
+    padding: 0.5% 0.5% 0.5% 0.5%;
+}
+/* .header{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size :180%;
+    width: 80%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 1%;
+} */
+.container{
+    font-size: 13px;
+    width: 80%;
+    margin: auto;
+    margin-top: 1%;
+}
+.serial{
+    font-weight: 600;
+}
+.tag{
+    font-weight: 600;
+}
+.btns{
+    display: flex;
+    column-gap: 5%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    justify-content: center;
+}
+.form_group{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 2%;
+}
+
+.add,.revert,.forward{
+    color: aliceblue;
+    background-color: rgb(29, 108, 212);
+    border-radius: 4px;
+    height: 35px;
+    border-width: 0;
+    cursor: pointer;
+}
+.revert{
+    background-color: rgb(235, 57, 57);
+}
+.forward{
+    background-color: rgb(4, 126, 30);
+}
+.add:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.revert:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.forward:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
